@@ -1,22 +1,29 @@
-# E-Commerce-Back-End
+# E-Commerce back end
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+  
+  ## Description
+  
+   An application for managing the back end of an e-commerce site. Built with MySQL2, Express, Sequelize and dotenv. A walkthrough video can be viewed here: https://watch.screencastify.com/v/vdusA0D3FBbh5a0c1bnf
+   
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation
+  npm i 
+  ## Usage
+  Connect to MySQL and run the commands in schema.sql file. Disconnect from MySQL and run npm run seeds to seed the database. Then run the application using node server.js
+  ## License
+  https://opensource.org/licenses/MIT
+  This project is under the license of MIT
+  ## Contributing 
+  get in touch if you want to contribute
+  ## Tests
+  no tests 
+  ## Questions
+  If you have any questions about this project, you can contact me at matthewmckenna1986@hotmail.com. More projects available here https://github.com/mattmc86.
 
-server.js - require sequelise - DONE
-server.js - sync sequelise - DONE
-
-models/Category.js - define columns - DONE
-models/index.js - belongsTo and hasMany - DONE
-models/product.js - define columns - DONE
-models/productTag.js - define columns - DONE
-models/tag.js - define columns - DONE 
-
-routes/api/category-routes.js - DONE
-routes/api/product-routes.js - DONE
-routes/api/tag-routes.js - DONE
-
-
-Product, Category, Tag
-Find One - Get
-Final All - Get
-Create - Post
-Update - Put
-Delete - Delete
